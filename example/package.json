@@ -1,0 +1,43 @@
+{
+  "name": "ca-pnp-poc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@arcana/auth": "^1.0.11",
+    "@arcana/auth-wagmi": "^3.0.0",
+    "@arcana/ca-wagmi": "^0.0.6",
+    "@ark-ui/react": "^5.0.0",
+    "@tailwindcss/vite": "^4.0.3",
+    "@tanstack/react-query": "^5.62.3",
+    "axios": "^1.7.9",
+    "decimal.js": "^10.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "styled-components": "^6.1.15",
+    "tailwindcss": "^4.0.3",
+    "viem": "^2.21.54",
+    "vite-plugin-node-polyfills": "^0.23.0",
+    "wagmi": "^2.13.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.13.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.15.0",
+    "vite": "^6.0.1"
+  }
+}
