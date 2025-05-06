@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@arcana/auth": "^1.0.11",
+    "@arcana/auth": "^1.0.12-beta.13",
     "@arcana/auth-wagmi": "^3.0.0",
     "@arcana/ca-wagmi": "^0.0.6",
     "@ark-ui/react": "^5.0.0",
