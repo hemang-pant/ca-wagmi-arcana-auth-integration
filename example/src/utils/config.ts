@@ -12,7 +12,7 @@ import { injected } from "wagmi/connectors";
 import { ArcanaConnector } from "@arcana/auth-wagmi"
 import { AuthProvider } from "@arcana/auth/esm";
 
-const auth = new AuthProvider(`xar_live_adad629c14269c2cb330abf87f0d0cbc5ff73fbc`)
+const auth = new AuthProvider(`xar_test_58eeafa5256e97d4e58e872b283551b655104e1f`)
 const connector = ArcanaConnector({
     auth: auth as any
 })
