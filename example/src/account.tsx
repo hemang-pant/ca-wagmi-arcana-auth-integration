@@ -9,7 +9,7 @@ import {
   useSendTransaction,
   useWriteContract,
   useBalanceModal,
-  useBalance,
+  useUnifiedBalance,
 } from "@arcana/ca-wagmi";
 import { Toast, Toaster, createToaster } from "@ark-ui/react/toast";
 
@@ -47,7 +47,7 @@ export function Account() {
   const { disconnect } = useDisconnect();
   const { data: ensName } = useEnsName({ address });
   const { showModal } = useBalanceModal();
-  const { loading } = useBalance({ symbol: "ETH" });
+  const { loading } = useUnifiedBalance();
   const { switchChainAsync } = useSwitchChain();
   const { writeContract } = useWriteContract();
 
