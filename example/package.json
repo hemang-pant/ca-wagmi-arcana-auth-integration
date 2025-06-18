@@ -12,7 +12,8 @@
   "dependencies": {
     "@arcana/auth": "^1.0.12-beta.13",
     "@arcana/auth-wagmi": "^3.0.0",
-    "@arcana/ca-wagmi": "^0.0.6",
+    "@arcana/ca-sdk": "^1.0.0",
+    "@arcana/ca-wagmi": "1.0.0",
     "@ark-ui/react": "^5.0.0",
     "@tailwindcss/vite": "^4.0.3",
     "@tanstack/react-query": "^5.62.3",
